@@ -7,8 +7,9 @@ export default function getSanFranciscoDescription() {
   };
 
   return (
-    ` As of ${year}, it was the seventh-highest income country in the United `
+    `As of ${year}, it was the seventh-highest income country in the United `
     + `States, with a per capita personal income of ${budget.income}. AS of `
+    + `2015, San Fransisco proper had a GDP of ${budget.gdp}, and a GDP per
     + `Capita of ${budget.capita}.`
   );
 }
