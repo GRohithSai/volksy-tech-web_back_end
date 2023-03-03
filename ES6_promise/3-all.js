@@ -10,10 +10,10 @@ export default function handleProfileSignup() {
       body = data.body;
       createUser()
         .then((data) => {
-	  firstName = data.firstName;
-	  lastName = data.lastName;
-	  console.log(`${body} ${firstName} ${lastName}`);
-	})
+          firstName = data.firstName;
+          lastName = data.lastName;
+          console.log(`${body} ${firstName} ${lastName}`);
+        })
 	.catch(() => console.log('Signup sysytem offline'));
   })
   .catch(() => console.log('Signup system offline'));
