@@ -4,15 +4,14 @@ export default class Airport {
     this._code = code;
     this._name = name;
   }
-  
+
   // Methods
 
   get [Symbol.toStringTag]() {
     return `${this._code}`;
   }
- 
+
   // Setters
-  
+
   // Getters
 }
-
