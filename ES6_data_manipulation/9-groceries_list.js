@@ -1,5 +1,5 @@
 export default function groceriesList() {
-  const groceries = new map();
+  const groceries = new Map();
   groceries.set('Apples', 10);
   grocreies.set('Tomatoes', 10);
   groceries.set('pasta', 1);
